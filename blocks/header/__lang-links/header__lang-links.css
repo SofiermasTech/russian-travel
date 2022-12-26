@@ -3,4 +3,7 @@
    margin: 0;
    padding: 0;
    display: flex;
+   padding-bottom: 6px;
+   align-self: flex-end;
+
 }

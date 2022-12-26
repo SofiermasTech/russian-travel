@@ -1,0 +1,8 @@
+.place {
+   max-width: 984px;
+   display: grid;
+   grid-template-columns: 460px 484px;
+   grid-template-rows: auto 460px;
+   gap: 40px 48px;
+   box-sizing: border-box;
+}

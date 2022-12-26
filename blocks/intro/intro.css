@@ -1,0 +1,17 @@
+.intro {
+   max-width: 690px;
+   margin: 92px 0 92px 100px;
+}
+
+@media screen and (max-width: 1024px) {
+   .intro {
+      padding: 0 24px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .header__lang-link {
+      font-size: 18px;
+      line-height: 20px;
+   }
+}
