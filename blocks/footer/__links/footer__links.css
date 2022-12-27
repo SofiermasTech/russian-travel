@@ -4,3 +4,19 @@
    padding: 0;
    display: flex;
 }
+
+@media screen and (max-width: 585px) {
+   .footer__links {
+      flex-direction: column;
+      flex-wrap: wrap;
+      
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .footer__links {
+      flex-direction: column;
+      justify-content: space-between;
+      
+   }
+}

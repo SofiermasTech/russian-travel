@@ -5,9 +5,21 @@
    line-height: 1.22;
    text-align: center;
    max-width: 360px;
-   margin: 32px 0 0 0;
-   position: absolute;
-   left: 412px;
-   bottom: 245px;
-
+   padding: 32px 0 0 0;
+   margin: 0 auto;
 }
+
+@media screen and (max-width: 600px) {
+   .cover__subtitle {
+      font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .cover__subtitle {
+      font-size: 14px;
+      min-width: 268px;
+   }
+}
+
+

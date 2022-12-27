@@ -6,16 +6,15 @@
    font-size: 24px;
    line-height: 1.1;
    margin-left: 18px;
-   
+   border-bottom: solid 1px #fff;
 }
 
-.header__lang-link:focus {
-   text-decoration: underline;
+.header__lang-link_disable {
+   border-bottom: none;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 768px) {
    .header__lang-link {
       font-size: 18px;
-
    }
 }
