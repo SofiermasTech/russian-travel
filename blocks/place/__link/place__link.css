@@ -8,6 +8,12 @@
    padding: 0;
 }
 
-.place__link:hover {
-   opacity: 0.8;
+
+
+@media screen and (min-width: 768px) {
+   .place__link:hover {
+      display: inline-block;
+      opacity: 0.8;
+      cursor: pointer;
+   }
 }

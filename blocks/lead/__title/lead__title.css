@@ -12,6 +12,7 @@
    .lead__title {
       max-width: 620px;
       font-size: 80px;
+      margin: 48px 0 32px;
        }
 }
 
@@ -34,5 +35,6 @@
    .lead__title {
       max-width: 288px;
       font-size: 40px;
+      margin: 48px 0 16px;
        }
 }

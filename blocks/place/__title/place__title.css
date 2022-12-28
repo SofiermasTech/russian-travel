@@ -3,7 +3,7 @@
    font-style: normal;
    font-weight: 900;
    font-size: 72px;
-   line-height: 1.06;
+   line-height: 1.1;
    letter-spacing: 2px;
    place-self: start;
 }
@@ -17,7 +17,6 @@
 @media screen and (max-width: 700px) {
    .place__title {
       font-size: 36px;
-      
    }
 } 
 

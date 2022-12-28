@@ -29,8 +29,10 @@
          <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <img src="./images/lead__image_L.png" alt="Карта маршрута" class="lead__image">
-            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+            <figure class="lead__image-container">
+               <img src="./images/lead__image_L.png" alt="Карта маршрута" class="lead__image">
+               <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+            </figure>
          </section>
 
          <section class="intro">
@@ -95,10 +97,9 @@
          <section class="places">
             <article class="place">
                <h2 class="place__title">Куршская коса</h2>
-
                <div class="place__website">
                   <p class="place__url-heading">URL</p>
-                  <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+                  <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
                </div>
                <img src="./images/place__image_kosa.jpg" alt="Куршская коса" class="place__image">
                <div class="place__paragraphs">
@@ -106,8 +107,9 @@
                      горизонта
                      — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
                      Уникальная природная зона на краю российского анклава.</p>
-                  <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника и
-                     исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое
+                  <p class="place__paragraph">На этом Калининградская область не заканчивается. Для&nbsp;путешественника
+                     и&nbsp;исследователя там же по соседству — самая западная точка России, Балтийская коса, —
+                     и&nbsp;немецкое
                      наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в
                      спокойствие природы и запах стального, прохладного моря.</p>
                </div>
@@ -115,11 +117,10 @@
 
             <article class="place">
                <h2 class="place__title">Кольский</h2>
-
                <div class="place__website">
                   <p class="place__url-heading">URL</p>
                   <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                     class="place__link">National Geographic</a>
+                     class="place__link" target="_blank">National Geographic</a>
                </div>
                <img src="./images/place__image_kol'skij.jpg" alt="Кольский" class="place__image">
                <div class="place__paragraphs">
@@ -136,15 +137,15 @@
 
             <article class="place">
                <h2 class="place__title">Алтай</h2>
-
                <div class="place__website">
                   <p class="place__url-heading">URL</p>
-                  <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link">YouTube</a>
+                  <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link" target="_blank">YouTube</a>
                </div>
                <img src="./images/place__image_altaj.jpg" alt="Алтай" class="place__image">
                <div class="place__paragraphs">
                   <p class="place__paragraph">Алтай — одно из красивейших мест в России.
-                     В&nbsp;первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные
+                     В&nbsp;первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами,
+                     горные
                      реки
                      и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест
                      —
@@ -158,10 +159,9 @@
 
             <article class="place">
                <h2 class="place__title">Зимний Байкал</h2>
-
                <div class="place__website">
                   <p class="place__url-heading">URL</p>
-                  <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
+                  <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
                </div>
                <img src="./images/place__image_bajkal.jpg" alt="Озеро байкал" class="place__image">
                <div class="place__paragraphs">
@@ -178,10 +178,9 @@
 
             <article class="place">
                <h2 class="place__title">Карелия</h2>
-
                <div class="place__website">
                   <p class="place__url-heading">URL</p>
-                  <a href="http://vodlozero.ru/" class="place__link">http://vodlozero.ru/</a>
+                  <a href="http://vodlozero.ru/" class="place__link" target="_blank">http://vodlozero.ru/</a>
                </div>
                <img src="./images/place__image_karelia.jpg" alt="Карелия" class="place__image">
                <div class="place__paragraphs">
@@ -198,18 +197,18 @@
          </section>
 
          <section class="cover">
-            
             <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
-            <div class="cover__overlay">
-               <img class="cover__background" src="./images/cover__background_L.jpg"
-                  alt="Фоновое изображение для статьи">
+               <div class="cover__overlay">
+                  <img class="cover__background" src="./images/cover__background_L.jpg"
+                     alt="Фоновое изображение для статьи">
                </div>
                <div class="cover__text-container">
-            <h3 class="cover__title">До Байкала «на собаках»</h3>
-            <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе — путешествие от столицы до Байкала на
-               электричках.</p>
-            </div>
-           </a>
+                  <h3 class="cover__title">До Байкала «на&nbsp;собаках»</h3>
+                  <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе — путешествие от столицы до
+                     Байкала на
+                     электричках.</p>
+               </div>
+            </a>
          </section>
       </main>
 
@@ -223,9 +222,9 @@
                <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
             </ul>
          </nav>
-         
-            <p class="footer__copyright">&copy; 2022. Ермакова София</p>
-         
+
+         <p class="footer__copyright">&copy; 2022. Ермакова София</p>
+
       </footer>
    </div>
 </body>

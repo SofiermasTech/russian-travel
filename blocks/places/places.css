@@ -7,25 +7,23 @@
 }
 
 @media screen and (max-width: 1024px) {
-   .places{
+   .places {
       max-width: 928px;
       margin: 0 48px;
-      
    }
-} 
+}
 
 @media screen and (max-width: 768px) {
-   .places{
+   .places {
       max-width: 720px;
       margin: 0 24px;
       row-gap: 73px;
    }
-} 
+}
 
 @media screen and (max-width: 500px) {
-   .places{
-      
+   .places {
       margin: 0;
       row-gap: 50px;
    }
-} 
+}

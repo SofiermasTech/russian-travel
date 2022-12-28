@@ -9,10 +9,6 @@
    border-bottom: solid 1px #fff;
 }
 
-.header__lang-link_disable {
-   border-bottom: none;
-}
-
 @media screen and (max-width: 768px) {
    .header__lang-link {
       font-size: 18px;
