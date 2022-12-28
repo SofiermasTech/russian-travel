@@ -14,4 +14,4 @@
 * Не использованы абсолютные величины, em, rem
 
 ### Ссылка на GitHub Pages
-* 
+* [https://sofiermastech.github.io/russian-travel/index.html]
