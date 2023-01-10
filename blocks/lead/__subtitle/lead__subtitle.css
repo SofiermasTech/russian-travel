@@ -8,23 +8,24 @@
    text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
    .lead__subtitle {
       margin: 0 0 56px;
    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 688px) {
    .lead__subtitle {
       max-width: 388px;
       font-size: 22px;
    }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 580px) {
    .lead__subtitle {
       max-width: 340px;
       font-size: 18px;
+      margin: 0 0 40px;
    }
 }
 
@@ -32,6 +33,5 @@
    .lead__subtitle {
       max-width: 288px;
       font-size: 16px;
-      margin: 0 0 40px;
    }
 }

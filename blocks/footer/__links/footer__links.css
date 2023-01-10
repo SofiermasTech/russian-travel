@@ -8,12 +8,6 @@
 @media screen and (max-width: 585px) {
    .footer__links {
       flex-direction: column;
-   }
-}
-
-@media screen and (max-width: 425px) {
-   .footer__links {
-      min-height: 248px;
       justify-content: space-between;
    }
 }
