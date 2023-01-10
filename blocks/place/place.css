@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 900px) {
    .place {
-      grid-template-columns: minmax(auto, 340px) minmax(auto, 406px);
+      grid-template-columns: 47.2% 48.8%;
       column-gap: 28px;
    }
 }
@@ -30,5 +30,6 @@
    .place {
       grid-template-columns: 1fr;
       row-gap: 32px;
+      margin: 0 auto;
    }
 }
