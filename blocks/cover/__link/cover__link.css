@@ -3,7 +3,6 @@
    max-width: 1184px;
    min-height: 740px;
    z-index: 1;
-   /*display: block; */
    background: url('../../../images/cover__background_L.jpg') center/cover no-repeat;
    position: relative;
    display: flex;
@@ -23,7 +22,7 @@
    background: #2a2c2f;
    opacity: 0.3;
    z-index: -1;
-  }
+}
 
 .cover__link:hover::before {
    opacity: 0.8;
